@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 135px;
+  background-color: #b80000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 43px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: black;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  min-height: 400px;
+  background-color: black;
+}
+
+.banner {
+  height: 281px;
+  background-image: url(../images/taylorswiftbadblood.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2em;
+  margin-top: 6em;
+}
+
+.bannerTwo {
+  height: 281px;
+  background-image: url(../images/Kendrick-Lamar-in-Bad-Blood-compressed.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2em;
+  margin-top: 6em;
+}
+
+.lyrics {
+  color: #b80000;
+  padding-left: 75px;
+  margin: 4em 0;
+}
+
+.welcome {
+  background-color: #b80000;
+  padding-left: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.welcomeText {
+  color: white;
+  width: 709px;
+}
+
+.lyrics,
+.welcome {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.welcome h1 {
+  font-size: 97px;
+}
+
+.welcome p {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+.title {
+  color: white;
+  background-color: #b80000;
+  padding-left: 75px;
+}
+
+.database {
+  color: white;
+  margin-bottom: 4em;
+}
+
+.special {
+  color: #b80000;
+}
+
+.database img {
+  width: 260px;
+  height: 391px;
+}
+
+.protagonists {
+  padding-left: 77px;
+  padding-right: 88px;
+  margin-top: 3em;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.title,
+.protagonists {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.title h1 {
+  font-size: 66px;
+}
+
+.row p {
+  line-height: 0.73em;
+  margin-bottom: 0.73em;
+}
