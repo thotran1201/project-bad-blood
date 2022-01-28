@@ -1,0 +1,74 @@
+body {
+  min-height: 400px;
+  background-color: black;
+}
+
+.banner {
+  height: 281px;
+  background-image: url(../images/taylorswiftbadblood.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2em;
+  margin-top: 6em;
+}
+
+.bannerTwo {
+  height: 281px;
+  background-image: url(../images/Kendrick-Lamar-in-Bad-Blood-compressed.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2em;
+  margin-top: 6em;
+}
+
+.lyrics {
+  color: #b80000;
+  padding-left: 75px;
+  margin: 4em 0;
+}
+
+.welcome {
+  background-color: #b80000;
+  padding-left: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.welcomeText {
+  color: white;
+  width: 709px;
+}
+
+.title {
+  color: white;
+  background-color: #b80000;
+  padding-left: 75px;
+}
+
+.database {
+  color: white;
+  margin-bottom: 4em;
+}
+
+.special {
+  color: #b80000;
+}
+
+.database img {
+  width: 260px;
+  height: 391px;
+}
+
+.protagonists {
+  padding-left: 77px;
+  padding-right: 88px;
+  margin-top: 3em;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}

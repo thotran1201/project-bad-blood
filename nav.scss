@@ -1,0 +1,22 @@
+nav {
+  height: 135px;
+  background-color: #b80000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 43px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: black;
+}
